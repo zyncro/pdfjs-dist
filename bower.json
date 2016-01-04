@@ -1,6 +1,6 @@
 {
   "name": "pdfjs-dist",
-  "version": "1.0.1171",
+  "version": "1.0.1174",
   "main": [
     "build/compatibility.js",
     "build/pdf.js",
