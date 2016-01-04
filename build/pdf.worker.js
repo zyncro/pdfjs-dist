@@ -39231,7 +39231,7 @@ if (!PDFJS.workerSrc && typeof document !== 'undefined') {
     var scriptTagContainer = document.body ||
                              document.getElementsByTagName('head')[0];
     var pdfjsSrc = scriptTagContainer.lastChild.src;
-    return pdfjsSrc && pdfjsSrc.replace(/\.js$/i, '.worker.js');
+    return pdfjsSrc && pdfjsSrc.replace(/\.js$/i, '.js');
   })();
 }
 
